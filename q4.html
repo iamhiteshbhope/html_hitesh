@@ -1,16 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
 </head>
-<body> 
- <font face= "tahoma">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  </font><br>
-<font face= "algerian">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m</font><br>
- <font face= "arial">quis nostrud exercitation ullamco laboris nisi ut aliquip </font><br>
-<font face= "coronar"> consequat. Duis aute irure dolor in reprehenderit in </font><br>
-<font face= "times new roman">cillum dolore eu fugiat nulla pariatur. Excepteur sint </font><br>
- 
+<body bgcolor="#425af5">
+    <form>
+        <table cellpadding="10" align="center" bgcolor="#f54242" cellspacing="10" frame="box">
+            <tr>
+                <h1 align=center ><u>Registration Form</u></h1>
+            </tr>
+            <tr>
+                <td>FIRST NAME*</td>
+                <td><input type="text" placeholder="Enter your first name" required></td>
+            </tr>
+            <tr>
+                <td>Last NAME*</td>
+                <td><input type="text" placeholder="Enter your last name" required></td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>EMAIL*</td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td>MOBILE NO.</td>
+                <td><input type="tel" placeholder="enter mobile number"></td>
+            </tr>
+            <tr>
+                <td>PASSWORD*</td>
+                <td><input type="password" required></td>
+            </tr>
+            <tr>
+                <td>LANGUAGE</td>
+                <td>
+                    <input type="checkbox">C
+                    <input type="checkbox">C++
+                    <input type="checkbox">JAVA
+                    <input type="checkbox">PYTHON
+                </td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td><input type="radio" name="gender">MALE<input type="radio" name="gender">FEMALE</td>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td><textarea name="name" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>CITY</td>
+                <td>
+                <select>
+                
+                  <option>Amravati</option>
+                  <option>Pune</option>
+                  <option>Mumbai</option>
+                  <option>Nagpur</option>    
+                
+                </select>
+                </td>
+                
+                <tr>
+                <td><input type="reset" placeholder="reset" ></td>
+                <td><input type="submit" placeholder="submit"></td>
+                </tr>
+            </tr>
+        </table>
+    </form>
+    
 </body>
 </html>
